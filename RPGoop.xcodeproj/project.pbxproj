@@ -15,6 +15,11 @@
 		0C6DE7151D78B299000AE6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DE7131D78B299000AE6F7 /* LaunchScreen.storyboard */; };
 		0C6DE7201D78B299000AE6F7 /* RPGoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE71F1D78B299000AE6F7 /* RPGoopTests.swift */; };
 		0C6DE72B1D78B299000AE6F7 /* RPGoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE72A1D78B299000AE6F7 /* RPGoopUITests.swift */; };
+		0C6DE7391D78B312000AE6F7 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE7381D78B312000AE6F7 /* Character.swift */; };
+		0C6DE73B1D78B4F0000AE6F7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE73A1D78B4F0000AE6F7 /* Player.swift */; };
+		0C6DE73D1D78BB04000AE6F7 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE73C1D78BB04000AE6F7 /* Enemy.swift */; };
+		0C6DE73F1D78BF0E000AE6F7 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE73E1D78BF0E000AE6F7 /* Kimara.swift */; };
+		0C6DE7411D78C0C4000AE6F7 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DE7401D78C0C4000AE6F7 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		0C6DE7261D78B299000AE6F7 /* RPGoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6DE72A1D78B299000AE6F7 /* RPGoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGoopUITests.swift; sourceTree = "<group>"; };
 		0C6DE72C1D78B299000AE6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6DE7381D78B312000AE6F7 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0C6DE73A1D78B4F0000AE6F7 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0C6DE73C1D78BB04000AE6F7 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		0C6DE73E1D78BF0E000AE6F7 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		0C6DE7401D78C0C4000AE6F7 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				0C6DE7131D78B299000AE6F7 /* LaunchScreen.storyboard */,
 				0C6DE7161D78B299000AE6F7 /* Info.plist */,
 				0C6DE70E1D78B299000AE6F7 /* RPGoop.xcdatamodeld */,
+				0C6DE7381D78B312000AE6F7 /* Character.swift */,
+				0C6DE73A1D78B4F0000AE6F7 /* Player.swift */,
+				0C6DE73C1D78BB04000AE6F7 /* Enemy.swift */,
+				0C6DE73E1D78BF0E000AE6F7 /* Kimara.swift */,
+				0C6DE7401D78C0C4000AE6F7 /* DevilWizard.swift */,
 			);
 			path = RPGoop;
 			sourceTree = "<group>";
@@ -196,13 +211,16 @@
 				TargetAttributes = {
 					0C6DE7031D78B299000AE6F7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					0C6DE71A1D78B299000AE6F7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 0C6DE7031D78B299000AE6F7;
 					};
 					0C6DE7251D78B299000AE6F7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 0C6DE7031D78B299000AE6F7;
 					};
 				};
@@ -260,8 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C6DE70A1D78B299000AE6F7 /* ViewController.swift in Sources */,
+				0C6DE7411D78C0C4000AE6F7 /* DevilWizard.swift in Sources */,
 				0C6DE7101D78B299000AE6F7 /* RPGoop.xcdatamodeld in Sources */,
+				0C6DE73D1D78BB04000AE6F7 /* Enemy.swift in Sources */,
 				0C6DE7081D78B299000AE6F7 /* AppDelegate.swift in Sources */,
+				0C6DE73B1D78B4F0000AE6F7 /* Player.swift in Sources */,
+				0C6DE73F1D78BF0E000AE6F7 /* Kimara.swift in Sources */,
+				0C6DE7391D78B312000AE6F7 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.RPGoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.RPGoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.RPGoopTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPGoop.app/RPGoop";
 			};
 			name = Debug;
@@ -443,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.RPGoopTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPGoop.app/RPGoop";
 			};
 			name = Release;
@@ -454,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.RPGoopUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RPGoop;
 			};
 			name = Debug;
@@ -465,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.RPGoopUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RPGoop;
 			};
 			name = Release;
@@ -488,6 +517,7 @@
 				0C6DE7311D78B299000AE6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C6DE7321D78B299000AE6F7 /* Build configuration list for PBXNativeTarget "RPGoopTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +526,7 @@
 				0C6DE7341D78B299000AE6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C6DE7351D78B299000AE6F7 /* Build configuration list for PBXNativeTarget "RPGoopUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +535,7 @@
 				0C6DE7371D78B299000AE6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
